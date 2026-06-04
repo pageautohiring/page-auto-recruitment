@@ -70,11 +70,26 @@
   .success{display:none;text-align:center;padding:60px 40px;background:linear-gradient(110deg,var(--navy1) 0%,var(--navy2) 45%,var(--navy3) 100%)}
   .success h2{font-family:'Barlow Condensed',sans-serif;font-size:28px;font-weight:800;color:#fff;margin-bottom:8px}
   .success p{color:rgba(255,255,255,0.5);font-size:15px;line-height:1.6}
-  @media(max-width:600px){
-    .hero-bottom{padding:16px 20px 20px}
-    .section-head,.section-body{padding-left:20px;padding-right:20px}
+  @media(max-width:700px){
+    .shell{margin:0;box-shadow:none}
+    .hero{flex-direction:column;padding:0;min-height:auto}
+    .hero-logo-bar{width:100%;height:auto;padding:12px 16px}
+    .hero-logo-bar img{height:auto;width:100%;max-width:340px}
+    .h-divider{display:none}
+    .hero-bottom{padding:16px 20px 20px;width:100%}
+    .headline{font-size:22px}
+    .sub{font-size:12px}
+    .section-head{padding:16px 20px 14px}
+    .section-body{padding:18px 20px 24px}
     .row2,.row3{grid-template-columns:1fr}
-    .submit-area{flex-direction:column;text-align:center;padding:28px 20px}
+    .check-grid{grid-template-columns:1fr}
+    .skills-table{font-size:12px}
+    .skills-table td{padding:8px 10px}
+    .skill-rating{flex-wrap:wrap;gap:4px}
+    .skill-rating label{font-size:11px;padding:3px 6px}
+    .submit-area{flex-direction:column;text-align:center;padding:28px 20px;gap:16px}
+    .submit-note{max-width:100%}
+    .submit-btn{width:100%;text-align:center}
   }
 </style>
 </head>
